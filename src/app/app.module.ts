@@ -26,7 +26,6 @@ export class AppModule {
     if (isPlatformBrowser(this.platformID)) {
       window.customElements.define('protvista-manager', ProtVistaManager);
       window.customElements.define('protvista-navigation', ProtVistaNavigation);
-      // window.customElements.define('protvista-sequence-logo', ProtVistaSequenceLogo);
     }
   }
 }
